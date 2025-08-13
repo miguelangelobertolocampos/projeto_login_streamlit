@@ -2,6 +2,8 @@ import streamlit as st
 import time
 from controllers.load_usuarios import load_usuarios
 from components.cadastro import cadastrar_aluno
+from components.show_alunos import show_alunos
+
 
 st.set_page_config("Sistema de Cadastro", layout="wide")
 
@@ -51,6 +53,8 @@ def main_page():
     st.subheader("Cadastro")
     if st.button("Abrir Formulário de Cadastro"):
       cadastrar_aluno()
+
+    show_alunos()
 
   with tabs[2]:
     st.subheader("Logout")

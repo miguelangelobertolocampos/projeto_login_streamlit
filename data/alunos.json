@@ -1,0 +1,10 @@
+[
+    {
+        "id_aluno": 1,
+        "nome_aluno": "Miguel",
+        "email_aluno": "miguela@email.com",
+        "cpf_aluno": "12345678987",
+        "dataNasc_aluno": "2025-08-13",
+        "telefone_aluno": "11234565432"
+    }
+]
