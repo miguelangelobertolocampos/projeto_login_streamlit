@@ -6,5 +6,13 @@
         "cpf_aluno": "12345678987",
         "dataNasc_aluno": "2025-08-13",
         "telefone_aluno": "11234565432"
+    },
+    {
+        "id_aluno": 2,
+        "nome_aluno": "luan",
+        "email_aluno": "asdfasdfg@giam.com",
+        "cpf_aluno": "45432345434",
+        "dataNasc_aluno": "2025-08-19",
+        "telefone_aluno": "34565423456"
     }
 ]

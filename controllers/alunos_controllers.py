@@ -10,11 +10,13 @@ def load_alunos():
     else:
         return[]
     
-def select_todos_os_alunos():
+def select_aluno_by_id(id_aluno):
     alunos = load_alunos()
 
     for aluno in alunos:
-        return aluno
+        if aluno["id_aluno"] == id_aluno:
+            return aluno
+    return False
     
 def select_aluno_por_email(email):
     alunos = load_alunos()

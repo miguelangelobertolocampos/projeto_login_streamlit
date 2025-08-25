@@ -9,11 +9,17 @@ st.set_page_config("Sistema de Cadastro", layout="wide")
 
 st.title("Streamlit Miguel")
 
+if "modal_editar" not in st.session_state:
+  st.session_state.modal_editar = False
+
 if "email" not in st.session_state:
   st.session_state.email = None
 
 if "nome" not in st.session_state:
   st.session_state.nome = None
+
+st.write(st.session_state)
+
 
 def login():
   usuarios = load_usuarios()

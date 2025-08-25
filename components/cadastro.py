@@ -76,8 +76,8 @@ def cadastrar_aluno():
     
     alunos = load_alunos()
     
-    id_aluno = (max([alunos["id_aluno"] for aluno in alunos]) + 1) if alunos else 1
-    
+    id_aluno = (max([aluno["id_aluno"] for aluno in alunos]) + 1) if alunos else 1
+
     data_aluno = {
       "id_aluno": id_aluno,
       "nome_aluno": nome_aluno,
